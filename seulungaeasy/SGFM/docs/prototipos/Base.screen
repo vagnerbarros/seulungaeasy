@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="40" y="8" width="801" height="521" text="Browser&#xA;http://..." measuredWidth="801" measuredHeight="521"/>
+  <widgets xsi:type="model:Rectangle" id="5" x="40" y="60" width="801" height="85" measuredWidth="801" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ScratchOut" id="7" x="104" y="82" measuredWidth="50" measuredHeight="50" annotation="true"/>
+  <widgets xsi:type="model:HLine" id="14" x="116" y="491" width="649" measuredWidth="649" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="15" x="303" y="496" text="LeafSoftware © 2012 - Todos os direitos reservados" measuredWidth="274" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="16" x="544" y="93" text="Início, Empresa, Projeto, Contato" measuredWidth="237" measuredHeight="27" selection="0">
+    <font/>
+    <items link="Inicio.screen" x="0" y="0" width="50" height="27" text="Início"/>
+    <items link="Empresa.screen" x="50" y="0" width="65" height="27" text="Empresa"/>
+    <items x="115" y="0" width="58" height="27" text="Projeto"/>
+    <items x="173" y="0" width="64" height="27" text="Contato"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

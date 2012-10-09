@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="8" y="16" measuredWidth="801" measuredHeight="521" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseSimples.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="216" y="238" text="Usuário cadastrado com sucesso!" measuredWidth="385" measuredHeight="40" foreground="#0b5394">
+    <font size="18" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="355" y="286" text="Realizar login" measuredWidth="107" measuredHeight="31" link="Login.screen">
+    <font size="13" bold="false" italic="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

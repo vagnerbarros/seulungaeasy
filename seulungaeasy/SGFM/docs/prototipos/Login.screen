@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="10" y="8" measuredWidth="801" measuredHeight="521" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseSimples.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="3" x="407" y="88" height="385" measuredWidth="6" measuredHeight="385" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="5" x="440" y="247" text="Senha:" measuredWidth="42" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="440" y="190" text="Login:" measuredWidth="38" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="485" y="128" text="Nome do Sistema" measuredWidth="196" measuredHeight="40">
+    <font size="18" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="9" x="440" y="136" measuredWidth="32" measuredHeight="32" icon="dots (large)" iconRotation="180"/>
+  <widgets xsi:type="model:Button" id="10" x="440" y="432" width="63" height="29" text="Confirmar" measuredWidth="63" measuredHeight="29" link="Inicio.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="120" y="137" text="Novidades para cadastrados" measuredWidth="255" measuredHeight="33">
+    <font size="14" bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="440" y="213" width="273" measuredWidth="273" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="440" y="270" width="273" text="***********************" measuredWidth="273" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="19" x="440" y="385" width="209" text="Nome das Cidades" measuredWidth="209" measuredHeight="23">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="440" y="360" text="Nome da Cidade:" measuredWidth="98" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="442" y="304" text="Selecione Estado:" measuredWidth="101" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="22" x="440" y="327" width="121" text="Nome das Estados" measuredWidth="121" measuredHeight="23">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="120" y="184" text="* Primeira Novidade" measuredWidth="123" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="120" y="221" text="* Segunda Novidade" measuredWidth="126" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="120" y="258" text="* Terceira Novidade" measuredWidth="122" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="120" y="304" text="Novidades para Empresas" measuredWidth="232" measuredHeight="33">
+    <font size="14" bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="120" y="354" text="* Primeira Novidade" measuredWidth="123" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="120" y="392" text="* Segunda Novidade" measuredWidth="126" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="120" y="432" text="* Terceira Novidade" measuredWidth="122" measuredHeight="25">
+    <font size="10" bold="false" italic="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

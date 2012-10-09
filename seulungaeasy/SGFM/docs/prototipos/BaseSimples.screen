@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="8" y="8" width="801" height="521" text="Browser&#xA;http://..." measuredWidth="801" measuredHeight="521"/>
+  <widgets xsi:type="model:HLine" id="2" x="84" y="491" width="649" measuredWidth="649" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="3" x="271" y="496" text="LeafSoftware © 2012 - Todos os direitos reservados" measuredWidth="274" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
