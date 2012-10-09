@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="17" x="8" y="7" measuredWidth="801" measuredHeight="521" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseSimples.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VideoPlayer" id="1" x="86" y="167" width="289" height="234" measuredWidth="289" measuredHeight="234"/>
+  <widgets xsi:type="model:VLine" id="3" x="405" y="88" height="385" measuredWidth="6" measuredHeight="385" foreground="#cccccc"/>
+  <widgets xsi:type="model:Combo" id="4" x="440" y="288" width="209" text="Nome das Cidades" measuredWidth="209" measuredHeight="23">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="440" y="263" text="Nome da Cidade:" measuredWidth="98" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="440" y="196" text="Selecione Estado:" measuredWidth="101" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="7" x="440" y="223" width="121" text="Nome das Estados" measuredWidth="121" measuredHeight="23">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="485" y="128" text="Nome do Sistema" measuredWidth="196" measuredHeight="40">
+    <font size="18" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="11" x="440" y="136" measuredWidth="32" measuredHeight="32" icon="dots (large)" iconRotation="180"/>
+  <widgets xsi:type="model:Button" id="12" x="440" y="335" width="63" height="29" text="Entrar" measuredWidth="63" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="440" y="392" width="273" measuredWidth="273" measuredHeight="6" foreground="#cccccc" lineStyle="dotted"/>
+  <widgets xsi:type="model:Label" id="15" x="99" y="416" text="Tenha Serviços exclusivos!" measuredWidth="177" measuredHeight="28" foreground="#c00c6a">
+    <font size="11" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="276" y="416" text="Inscreva-se" measuredWidth="84" measuredHeight="28" foreground="#c00c6a" link="CadastroUsuario.screen">
+    <font size="11" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="88" y="129" text="Conheça o &lt;nome_sistema>!" measuredWidth="212" measuredHeight="28">
+    <font size="11" bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="460" y="416" text="Já sou cadastrado!" measuredWidth="127" measuredHeight="28" foreground="#c00c6a">
+    <font size="11" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="585" y="416" text="Realizar Login" measuredWidth="103" measuredHeight="28" foreground="#c00c6a" link="Login.screen">
+    <font size="11" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
